@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
 // import { OrderService } from '@his/model/order-service/mod.ts';
-import { Controller, Subscriber, Replier } from '@his/base/server-base/mod.ts';
+import { Controller, Subscriber, Replier } from 'https://raw.githubusercontent.com/thomas85514/deno_remote_test/main/controller/mod.ts';
 import { JsMsg, Msg, Codec } from 'https://deno.land/x/nats@v1.16.0/src/mod.ts';
 
 @Controller('order')
