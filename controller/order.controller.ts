@@ -4,7 +4,7 @@ import {
   Controller,
   Subscriber,
   Replier,
-} from 'https://raw.githubusercontent.com/thomas85514/deno_remote_test/main/controller/mod.ts';
+} from 'https://raw.githubusercontent.com/thomas85514/deno_remote_test/main/base/mod.ts';
 import { JsMsg, Msg, Codec } from 'https://deno.land/x/nats@v1.16.0/src/mod.ts';
 
 @Controller('order')
